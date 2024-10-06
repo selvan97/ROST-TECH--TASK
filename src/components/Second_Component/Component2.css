@@ -1,0 +1,69 @@
+.customize_btn {
+  border-radius: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.customize_component2 .form-select {
+  background: color #f0f0f0;
+}
+.customize_component2 .form-select:focus {
+  border-color: unset;
+  outline: 0;
+  box-shadow: none;
+  border-radius: none;
+}
+.customize_component2 .form-control:focus {
+  border-color: unset;
+  outline: 0;
+  box-shadow: none;
+}
+
+.customize_component2 {
+  font-family: "Mohave", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(213, 222, 222, 1);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(213, 222, 222, 1);
+  box-shadow: 0px 0px 5px 2px rgba(213, 222, 222, 1);
+}
+
+.for_style {
+  font-family: "Mohave";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #28304c;
+  border-radius: none;
+
+}
+.for_style2 {
+  font-family: "Mohave";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #606060;
+  background-color: #f0f0f0;
+  border-radius: none;
+
+}
+.for_button .btn {
+  font-family: "Barlow Condensed";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 0.6rem;
+  background-color: #28304C;
+  border-radius: none;
+}

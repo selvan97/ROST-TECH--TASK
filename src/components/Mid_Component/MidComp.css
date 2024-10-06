@@ -1,0 +1,56 @@
+.image_container {
+  position: relative;
+}
+.image_container2 {
+  position: relative;
+  width: 100%;
+}
+.image-container3 {
+  position: relative;
+}
+.image-container4 {
+  position: relative;
+}
+.custom_span {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.custom_span2 {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.img_fluid {
+  width: 100%;
+}
+.custom_span_hotels {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.custom_span_cottage {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.custom_cursor {
+  cursor: pointer;
+}
+.custom_heading {
+  color: #2e3a62;
+  font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 500;
+line-height: 47.99px;
+text-align: center;
+
+}
+.custom_p {
+  font-family: "Mohave";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.86px;
+  text-align: center;
+  color: #5a5a5a;
+}

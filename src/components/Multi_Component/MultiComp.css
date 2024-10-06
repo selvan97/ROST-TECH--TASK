@@ -1,0 +1,91 @@
+.custom_card {
+  position: relative;
+  border-radius: 10px;
+}
+.custom_card .card-body > Row {
+  justify-content: space-around;
+}
+.customize_ratings {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.card-item {
+  min-width: 250px;
+  margin-right: 13px;
+}
+
+.scrollable-cards-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollable-cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-nav-container {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollable-nav-container .nav {
+  flex-wrap: nowrap;
+}
+.scrollable-nav-container::-webkit-scrollbar {
+  display: none;
+}
+.custom_btns .btn-outline-secondary {
+  --bs-btn-active-color: #fff;
+  --bs-btn-hover-bg: #28304c;
+  --bs-btn-hover-border-color: #28304c;
+  --bs-btn-active-border-color: #28304c;
+  --bs-btn-disabled-border-color: #28304c;
+  --bs-btn-color: #28304c;
+  --bs-btn-border-color: #28304c;
+  --bs-btn-hover-color: #fff;
+}
+.for_border {
+  border-bottom: 1px solid #cacaca;
+}
+.custom_nav_border .nav-link {
+  color: #5a5a5a;
+  font-family: "Mohave";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.86px;
+  text-align: center;
+}
+.custom_nav_border .nav-pills {
+  --bs-nav-pills-border-radius: none;
+  --bs-nav-pills-link-active-color: #2e3a62;
+  --bs-nav-pills-link-active-bg: none;
+}
+.custom_nav_border .nav-pills .nav-link.active {
+  border-bottom: 2px solid #2e3a62;
+}
+.for_heading h2{
+  font-family: " Playfair Display";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 47.99px;
+  text-align: left;
+  color: #28304c;
+  width: 100%;
+}
+
+
+/* @media (max-width: 576px) {
+  .for_heading h2 {
+    font-size: 18px; 
+    line-height: 1.2; 
+  }
+} */

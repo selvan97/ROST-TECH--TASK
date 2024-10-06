@@ -1,0 +1,53 @@
+.image-flex-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 15px;
+}
+
+.image-card {
+  flex-shrink: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.custom_5 .image-card p {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-family: "Playfair Display";
+}
+.custom_5 p {
+  font-family: "Mohave";
+  color: #5a5a5a;
+}
+.custom_5 .image {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.custom_5 .image-flex-container::-webkit-scrollbar {
+  display: none;
+}
+.custom_5 {
+  background-color: #f0f0f0;
+}
+.customize_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom_5 .btn-outline-secondary {
+  --bs-btn-active-color: #fff;
+  --bs-btn-hover-bg: #28304c;
+  --bs-btn-hover-border-color: #28304c;
+  --bs-btn-active-border-color: #28304c;
+  --bs-btn-disabled-border-color: #28304c;
+  --bs-btn-color: #28304c;
+  --bs-btn-border-color: #28304c;
+  --bs-btn-hover-color: #fff;
+}

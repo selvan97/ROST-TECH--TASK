@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+
+.custom7_car .carousel-control-next-icon {
+  color: brown;
+}
+.custom7_car .carousel-control-prev-icon {
+  color: brown;
+}
+
+.custom7_car .carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.customize_test_pic {
+  height: inherit;
+  display: flex;
+  width: 100%;
+}
+.customize_test_pic img {
+  width: 100%;
+  height: inherit;
+  display: flex;
+}
+
+.custom_testimonials {
+  width: 100%;
+  border: 1px solid yellow;
+}
+.custom7_car {
+  width: 100%;
+}
+.custom_7_image {
+  width: 100%;
+  height: inherit;
+}
+.custom_7_image img {
+  width: 100%;
+  height: inherit;
+}
+
+/*  */
+@media (max-width: 1340px) {
+  .custom_7_image + .carousel-caption {
+    display: none;
+  }
+}

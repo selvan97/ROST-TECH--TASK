@@ -1,0 +1,49 @@
+.footer {
+  background-color: #2b3a4a;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-family: "Mohave";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.86px;
+  text-align: left;
+}
+.custom_ul {
+  font-family: "Mohave";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-family: "Mohave";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.for_ptag {
+  font-family: "Mohave";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.29px;
+  text-align: justify;
+}
